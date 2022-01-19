@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "seededshuffle": "^0.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.10",
+    "@babel/preset-env": "^7.16.10",
+    "chokidar": "^3.5.3"
+  },
+  "name": "imageshuffler",
+  "description": "Encrypts Image into another one with key",
+  "version": "1.0.9",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src --out-dir dist",
+    "start": "npx babel src --out-dir dist --watch "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahgsql/ImageShuffler.git"
+  },
+  "keywords": [
+    "encrypt",
+    "image",
+    "crypto"
+  ],
+  "author": "@ahgsql",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahgsql/ImageShuffler/issues"
+  },
+  "homepage": "https://github.com/ahgsql/ImageShuffler#readme"
+}
